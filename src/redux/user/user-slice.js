@@ -17,6 +17,9 @@ const user = createSlice({
     clearMessage: store => {
       store.message = '';
     },
+    clearError: store => {
+      store.error = null;
+    },
   },
 
   extraReducers: {
@@ -62,4 +65,4 @@ const user = createSlice({
 });
 
 export default user.reducer;
-export const { clearUser, clearMessage } = user.actions;
+export const { clearUser, clearMessage, clearError } = user.actions;
