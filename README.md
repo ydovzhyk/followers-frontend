@@ -21,4 +21,4 @@ The server-side was developed using Node.js, Express.js, Mongoose and MongoDB.
 
 To see how the site works, please refer to this video link:
 
-[follower-frontend video](https://drive.google.com/file/d/10uHFwsgNRydZYdHSBUK_akWyBqrtWyqy/view?usp=sharing)
+[follower-frontend video](https://drive.google.com/file/d/1acUuQV-BGz9486_-bH2DMBQVceilAYns/view?usp=sharing)
