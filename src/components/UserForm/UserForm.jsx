@@ -25,7 +25,7 @@ const UserForm = () => {
 
     if (message) {
       setIsWarning(message);
-      const timerId = setTimeout(clearWarning, 5000);
+      const timerId = setTimeout(clearWarning, 3000);
       return () => {
         clearTimeout(timerId);
       };
