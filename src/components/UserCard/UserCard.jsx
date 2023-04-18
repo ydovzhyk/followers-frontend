@@ -46,6 +46,7 @@ const UserCard = () => {
 
   useEffect(() => {
     setPageUsers([]);
+    setPage(1);
   }, [filter]);
 
   useEffect(() => {
