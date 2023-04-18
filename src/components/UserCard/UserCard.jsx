@@ -181,7 +181,6 @@ const UserCard = () => {
               </div>
             )
           )}
-          ;
         </div>
       )}
       {Object.keys(pageUsers).length !== 0 && countPage > page && (
