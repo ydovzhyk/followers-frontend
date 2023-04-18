@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
   width: 100%;
   border-bottom: 2px solid #461ca954;
   padding: 20px;
@@ -13,7 +12,6 @@
 
   @include mixins.mq(desktop) {
     justify-content: flex-start;
-    height: 70px;
   }
 }
 
@@ -22,10 +20,6 @@
 
   @include mixins.mq(tablet) {
     margin-right: 10px;
-  }
-
-  @include mixins.mq(desktop) {
-    margin-left: 30px;
   }
 }
 
