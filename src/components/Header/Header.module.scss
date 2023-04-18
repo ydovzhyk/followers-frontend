@@ -13,11 +13,7 @@
 
   @include mixins.mq(desktop) {
     justify-content: flex-start;
-    height: 60px;
-  }
-
-  @include mixins.mq(desktop) {
-    margin-left: 70px;
+    height: 70px;
   }
 }
 
