@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/followers-frontend/static/css/main.b08417ac.css",
-    "main.js": "/followers-frontend/static/js/main.7ee4cf75.js",
+    "main.js": "/followers-frontend/static/js/main.a7b8c4fa.js",
     "static/css/524.048952b4.chunk.css": "/followers-frontend/static/css/524.048952b4.chunk.css",
     "static/js/524.acec5a3d.chunk.js": "/followers-frontend/static/js/524.acec5a3d.chunk.js",
     "static/css/114.8ab8cdb4.chunk.css": "/followers-frontend/static/css/114.8ab8cdb4.chunk.css",
@@ -12,7 +12,7 @@
     "static/media/logo.svg": "/followers-frontend/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/followers-frontend/index.html",
     "main.b08417ac.css.map": "/followers-frontend/static/css/main.b08417ac.css.map",
-    "main.7ee4cf75.js.map": "/followers-frontend/static/js/main.7ee4cf75.js.map",
+    "main.a7b8c4fa.js.map": "/followers-frontend/static/js/main.a7b8c4fa.js.map",
     "524.048952b4.chunk.css.map": "/followers-frontend/static/css/524.048952b4.chunk.css.map",
     "524.acec5a3d.chunk.js.map": "/followers-frontend/static/js/524.acec5a3d.chunk.js.map",
     "114.8ab8cdb4.chunk.css.map": "/followers-frontend/static/css/114.8ab8cdb4.chunk.css.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.b08417ac.css",
-    "static/js/main.7ee4cf75.js"
+    "static/js/main.a7b8c4fa.js"
   ]
 }
