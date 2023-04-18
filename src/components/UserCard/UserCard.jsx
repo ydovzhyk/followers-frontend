@@ -153,8 +153,8 @@ const UserCard = () => {
                     <img
                       src={avatar}
                       alt={user}
-                      width="62"
-                      height="62"
+                      width="57"
+                      height="57"
                       className={s.cardAvatar}
                     />
                   </div>
