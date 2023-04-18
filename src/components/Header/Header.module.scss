@@ -21,6 +21,10 @@
   @include mixins.mq(tablet) {
     margin-right: 10px;
   }
+
+  @include mixins.mq(tablet) {
+    margin-left: 30px;
+  }
 }
 
 .header a {
