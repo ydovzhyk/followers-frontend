@@ -10,7 +10,6 @@ import Dropdown from 'components/Shared/Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import logo from 'images/logo.svg';
-import bottom from 'images/bottom.svg';
 
 import s from './UserCard.module.scss';
 
@@ -140,44 +139,39 @@ const UserCard = () => {
           {pageUsers.map(
             ({ _id, user, tweets, followers, avatar, following }) => (
               <div key={_id} className={s.userCard}>
-                <img
-                  src={bottom}
-                  alt="web-site logo"
-                  width="308"
-                  height="168"
-                  className={s.cardBottom}
-                />
-                <div className={s.cardLine}></div>
-                <div className={s.cardCircle}>
-                  <div className={s.cardCircleBackground}>
-                    <img
-                      src={avatar}
-                      alt={user}
-                      width="57"
-                      height="57"
-                      className={s.cardAvatar}
+                <div className={s.userCardBackground}>
+                  <div className={s.cardLine}></div>
+                  <div className={s.cardCircle}>
+                    <div className={s.cardCircleBackground}>
+                      <img
+                        src={avatar}
+                        alt={user}
+                        width="57"
+                        height="57"
+                        className={s.cardAvatar}
+                      />
+                    </div>
+                  </div>
+                  <p className={s.cardTitleTw}>
+                    {tweets.toLocaleString('en-US')} Tweets
+                  </p>
+                  <p className={s.cardTitleFo}>
+                    {followers.toLocaleString('en-US')} Followers
+                  </p>
+                  <div className={s.cardBtn}>
+                    <Button
+                      text={following ? 'FOLLOWING' : 'FOLLOW'}
+                      btnClass={following ? 'btnDark' : 'btnLight'}
+                      handleClick={() => handleButtonClick(_id, following)}
                     />
                   </div>
-                </div>
-                <p className={s.cardTitleTw}>
-                  {tweets.toLocaleString('en-US')} Tweets
-                </p>
-                <p className={s.cardTitleFo}>
-                  {followers.toLocaleString('en-US')} Followers
-                </p>
-                <div className={s.cardBtn}>
-                  <Button
-                    text={following ? 'FOLLOWING' : 'FOLLOW'}
-                    btnClass={following ? 'btnDark' : 'btnLight'}
-                    handleClick={() => handleButtonClick(_id, following)}
+                  <img
+                    src={logo}
+                    alt="web-site logo"
+                    width="76"
+                    className={s.cardLogo}
                   />
                 </div>
-                <img
-                  src={logo}
-                  alt="web-site logo"
-                  width="76"
-                  className={s.cardLogo}
-                />
               </div>
             )
           )}

@@ -38,6 +38,20 @@
   }
 }
 
+.userCardBackground {
+  position: relative;
+  width: 380px;
+  height: 460px;
+  background-image: url('../../images/bottom.svg');
+  background-repeat: no-repeat;
+  background-position: center top 28px;
+  background-size: 298px 168px;
+
+  @include mixins.mq(tablet) {
+    background-size: 308px 168px;
+  }
+}
+
 .userCard:last-child {
   margin-right: 0;
 }
@@ -45,13 +59,6 @@
 .cardLogo {
   margin-top: 20px;
   margin-left: 20px;
-}
-
-.cardBottom {
-  position: absolute;
-  margin-top: 28px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .cardLine {
